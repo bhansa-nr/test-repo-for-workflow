@@ -17,7 +17,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "./dist"),
-    filename: pkg.name + ".min.js",
+    filename: 'newrelic-video-dash' + '.min.js',
     library: "nrvideo",
     libraryTarget: "umd",
   },
